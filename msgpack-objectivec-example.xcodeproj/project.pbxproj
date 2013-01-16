@@ -23,6 +23,28 @@
 		5E56C7B416A6E21D00CE024B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E56C78F16A6E21D00CE024B /* Foundation.framework */; };
 		5E56C7BC16A6E21D00CE024B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E56C7BA16A6E21D00CE024B /* InfoPlist.strings */; };
 		5E56C7BF16A6E21D00CE024B /* msgpack_objectivec_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7BE16A6E21D00CE024B /* msgpack_objectivec_exampleTests.m */; };
+		5E56C7EB16A6E30600CE024B /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7CC16A6E30600CE024B /* MessagePackPacker.m */; };
+		5E56C7EC16A6E30600CE024B /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7CC16A6E30600CE024B /* MessagePackPacker.m */; };
+		5E56C7ED16A6E30600CE024B /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7CE16A6E30600CE024B /* MessagePackParser.m */; };
+		5E56C7EE16A6E30600CE024B /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7CE16A6E30600CE024B /* MessagePackParser.m */; };
+		5E56C7EF16A6E30600CE024B /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7DF16A6E30600CE024B /* objectc.c */; };
+		5E56C7F016A6E30600CE024B /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7DF16A6E30600CE024B /* objectc.c */; };
+		5E56C7F116A6E30600CE024B /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E016A6E30600CE024B /* unpack.c */; };
+		5E56C7F216A6E30600CE024B /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E016A6E30600CE024B /* unpack.c */; };
+		5E56C7F316A6E30600CE024B /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E116A6E30600CE024B /* version.c */; };
+		5E56C7F416A6E30600CE024B /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E116A6E30600CE024B /* version.c */; };
+		5E56C7F516A6E30600CE024B /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E216A6E30600CE024B /* vrefbuffer.c */; };
+		5E56C7F616A6E30600CE024B /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E216A6E30600CE024B /* vrefbuffer.c */; };
+		5E56C7F716A6E30600CE024B /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E316A6E30600CE024B /* zone.c */; };
+		5E56C7F816A6E30600CE024B /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E316A6E30600CE024B /* zone.c */; };
+		5E56C7F916A6E30600CE024B /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E516A6E30600CE024B /* NSArray+MessagePack.m */; };
+		5E56C7FA16A6E30600CE024B /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E516A6E30600CE024B /* NSArray+MessagePack.m */; };
+		5E56C7FB16A6E30600CE024B /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E716A6E30600CE024B /* NSData+MessagePack.m */; };
+		5E56C7FC16A6E30600CE024B /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E716A6E30600CE024B /* NSData+MessagePack.m */; };
+		5E56C7FD16A6E30600CE024B /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E916A6E30600CE024B /* NSDictionary+MessagePack.m */; };
+		5E56C7FE16A6E30600CE024B /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E56C7E916A6E30600CE024B /* NSDictionary+MessagePack.m */; };
+		5E56C7FF16A6E30600CE024B /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E56C7EA16A6E30600CE024B /* readme.md */; };
+		5E56C80016A6E30600CE024B /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E56C7EA16A6E30600CE024B /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +80,37 @@
 		5E56C7BB16A6E21D00CE024B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E56C7BD16A6E21D00CE024B /* msgpack_objectivec_exampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = msgpack_objectivec_exampleTests.h; sourceTree = "<group>"; };
 		5E56C7BE16A6E21D00CE024B /* msgpack_objectivec_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = msgpack_objectivec_exampleTests.m; sourceTree = "<group>"; };
+		5E56C7CA16A6E30600CE024B /* MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePack.h; sourceTree = "<group>"; };
+		5E56C7CB16A6E30600CE024B /* MessagePackPacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePackPacker.h; sourceTree = "<group>"; };
+		5E56C7CC16A6E30600CE024B /* MessagePackPacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagePackPacker.m; sourceTree = "<group>"; };
+		5E56C7CD16A6E30600CE024B /* MessagePackParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePackParser.h; sourceTree = "<group>"; };
+		5E56C7CE16A6E30600CE024B /* MessagePackParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagePackParser.m; sourceTree = "<group>"; };
+		5E56C7D116A6E30600CE024B /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		5E56C7D216A6E30600CE024B /* pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack.h; sourceTree = "<group>"; };
+		5E56C7D316A6E30600CE024B /* pack_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack_define.h; sourceTree = "<group>"; };
+		5E56C7D416A6E30600CE024B /* pack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack_template.h; sourceTree = "<group>"; };
+		5E56C7D516A6E30600CE024B /* sbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbuffer.h; sourceTree = "<group>"; };
+		5E56C7D616A6E30600CE024B /* sysdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysdep.h; sourceTree = "<group>"; };
+		5E56C7D716A6E30600CE024B /* unpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack.h; sourceTree = "<group>"; };
+		5E56C7D816A6E30600CE024B /* unpack_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack_define.h; sourceTree = "<group>"; };
+		5E56C7D916A6E30600CE024B /* unpack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack_template.h; sourceTree = "<group>"; };
+		5E56C7DA16A6E30600CE024B /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		5E56C7DB16A6E30600CE024B /* vrefbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vrefbuffer.h; sourceTree = "<group>"; };
+		5E56C7DC16A6E30600CE024B /* zbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbuffer.h; sourceTree = "<group>"; };
+		5E56C7DD16A6E30600CE024B /* zone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zone.h; sourceTree = "<group>"; };
+		5E56C7DE16A6E30600CE024B /* msgpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgpack.h; sourceTree = "<group>"; };
+		5E56C7DF16A6E30600CE024B /* objectc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = objectc.c; sourceTree = "<group>"; };
+		5E56C7E016A6E30600CE024B /* unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unpack.c; sourceTree = "<group>"; };
+		5E56C7E116A6E30600CE024B /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		5E56C7E216A6E30600CE024B /* vrefbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vrefbuffer.c; sourceTree = "<group>"; };
+		5E56C7E316A6E30600CE024B /* zone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zone.c; sourceTree = "<group>"; };
+		5E56C7E416A6E30600CE024B /* NSArray+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MessagePack.h"; sourceTree = "<group>"; };
+		5E56C7E516A6E30600CE024B /* NSArray+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MessagePack.m"; sourceTree = "<group>"; };
+		5E56C7E616A6E30600CE024B /* NSData+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MessagePack.h"; sourceTree = "<group>"; };
+		5E56C7E716A6E30600CE024B /* NSData+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MessagePack.m"; sourceTree = "<group>"; };
+		5E56C7E816A6E30600CE024B /* NSDictionary+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MessagePack.h"; sourceTree = "<group>"; };
+		5E56C7E916A6E30600CE024B /* NSDictionary+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MessagePack.m"; sourceTree = "<group>"; };
+		5E56C7EA16A6E30600CE024B /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				5E56C79316A6E21D00CE024B /* msgpack-objectivec-example */,
+				5E56C7C816A6E2E900CE024B /* lib */,
 				5E56C7B716A6E21D00CE024B /* msgpack-objectivec-exampleTests */,
 				5E56C78C16A6E21D00CE024B /* Frameworks */,
 				5E56C78A16A6E21D00CE024B /* Products */,
@@ -158,6 +212,68 @@
 				5E56C7BA16A6E21D00CE024B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E56C7C816A6E2E900CE024B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5E56C7C916A6E30600CE024B /* msgpack-objectivec */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		5E56C7C916A6E30600CE024B /* msgpack-objectivec */ = {
+			isa = PBXGroup;
+			children = (
+				5E56C7CA16A6E30600CE024B /* MessagePack.h */,
+				5E56C7CB16A6E30600CE024B /* MessagePackPacker.h */,
+				5E56C7CC16A6E30600CE024B /* MessagePackPacker.m */,
+				5E56C7CD16A6E30600CE024B /* MessagePackParser.h */,
+				5E56C7CE16A6E30600CE024B /* MessagePackParser.m */,
+				5E56C7CF16A6E30600CE024B /* msgpack_src */,
+				5E56C7E416A6E30600CE024B /* NSArray+MessagePack.h */,
+				5E56C7E516A6E30600CE024B /* NSArray+MessagePack.m */,
+				5E56C7E616A6E30600CE024B /* NSData+MessagePack.h */,
+				5E56C7E716A6E30600CE024B /* NSData+MessagePack.m */,
+				5E56C7E816A6E30600CE024B /* NSDictionary+MessagePack.h */,
+				5E56C7E916A6E30600CE024B /* NSDictionary+MessagePack.m */,
+				5E56C7EA16A6E30600CE024B /* readme.md */,
+			);
+			path = "msgpack-objectivec";
+			sourceTree = "<group>";
+		};
+		5E56C7CF16A6E30600CE024B /* msgpack_src */ = {
+			isa = PBXGroup;
+			children = (
+				5E56C7D016A6E30600CE024B /* msgpack */,
+				5E56C7DE16A6E30600CE024B /* msgpack.h */,
+				5E56C7DF16A6E30600CE024B /* objectc.c */,
+				5E56C7E016A6E30600CE024B /* unpack.c */,
+				5E56C7E116A6E30600CE024B /* version.c */,
+				5E56C7E216A6E30600CE024B /* vrefbuffer.c */,
+				5E56C7E316A6E30600CE024B /* zone.c */,
+			);
+			path = msgpack_src;
+			sourceTree = "<group>";
+		};
+		5E56C7D016A6E30600CE024B /* msgpack */ = {
+			isa = PBXGroup;
+			children = (
+				5E56C7D116A6E30600CE024B /* object.h */,
+				5E56C7D216A6E30600CE024B /* pack.h */,
+				5E56C7D316A6E30600CE024B /* pack_define.h */,
+				5E56C7D416A6E30600CE024B /* pack_template.h */,
+				5E56C7D516A6E30600CE024B /* sbuffer.h */,
+				5E56C7D616A6E30600CE024B /* sysdep.h */,
+				5E56C7D716A6E30600CE024B /* unpack.h */,
+				5E56C7D816A6E30600CE024B /* unpack_define.h */,
+				5E56C7D916A6E30600CE024B /* unpack_template.h */,
+				5E56C7DA16A6E30600CE024B /* version.h */,
+				5E56C7DB16A6E30600CE024B /* vrefbuffer.h */,
+				5E56C7DC16A6E30600CE024B /* zbuffer.h */,
+				5E56C7DD16A6E30600CE024B /* zone.h */,
+			);
+			path = msgpack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +352,7 @@
 				5E56C7A216A6E21D00CE024B /* Default@2x.png in Resources */,
 				5E56C7A416A6E21D00CE024B /* Default-568h@2x.png in Resources */,
 				5E56C7AA16A6E21D00CE024B /* ViewController.xib in Resources */,
+				5E56C7FF16A6E30600CE024B /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E56C7BC16A6E21D00CE024B /* InfoPlist.strings in Resources */,
+				5E56C80016A6E30600CE024B /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +391,16 @@
 				5E56C79A16A6E21D00CE024B /* main.m in Sources */,
 				5E56C79E16A6E21D00CE024B /* AppDelegate.m in Sources */,
 				5E56C7A716A6E21D00CE024B /* ViewController.m in Sources */,
+				5E56C7EB16A6E30600CE024B /* MessagePackPacker.m in Sources */,
+				5E56C7ED16A6E30600CE024B /* MessagePackParser.m in Sources */,
+				5E56C7EF16A6E30600CE024B /* objectc.c in Sources */,
+				5E56C7F116A6E30600CE024B /* unpack.c in Sources */,
+				5E56C7F316A6E30600CE024B /* version.c in Sources */,
+				5E56C7F516A6E30600CE024B /* vrefbuffer.c in Sources */,
+				5E56C7F716A6E30600CE024B /* zone.c in Sources */,
+				5E56C7F916A6E30600CE024B /* NSArray+MessagePack.m in Sources */,
+				5E56C7FB16A6E30600CE024B /* NSData+MessagePack.m in Sources */,
+				5E56C7FD16A6E30600CE024B /* NSDictionary+MessagePack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +409,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E56C7BF16A6E21D00CE024B /* msgpack_objectivec_exampleTests.m in Sources */,
+				5E56C7EC16A6E30600CE024B /* MessagePackPacker.m in Sources */,
+				5E56C7EE16A6E30600CE024B /* MessagePackParser.m in Sources */,
+				5E56C7F016A6E30600CE024B /* objectc.c in Sources */,
+				5E56C7F216A6E30600CE024B /* unpack.c in Sources */,
+				5E56C7F416A6E30600CE024B /* version.c in Sources */,
+				5E56C7F616A6E30600CE024B /* vrefbuffer.c in Sources */,
+				5E56C7F816A6E30600CE024B /* zone.c in Sources */,
+				5E56C7FA16A6E30600CE024B /* NSArray+MessagePack.m in Sources */,
+				5E56C7FC16A6E30600CE024B /* NSData+MessagePack.m in Sources */,
+				5E56C7FE16A6E30600CE024B /* NSDictionary+MessagePack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
